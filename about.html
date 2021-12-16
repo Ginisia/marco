@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <title> About | Marco Marino </title>
+</head>
+<body class="page-about">
+    <div class="transition-bg"></div>
+    <header>
+        <nav class="main-nav">
+            <a href="index.html" >marco marino</a>
+            <a href="projects.html" >Projects</a>
+            <a href="about.html" >About</a>
+            <a href="#" class="contact-link" id="contact">Contact</a>
+            <div class="window-contact">
+                <div class="wrapperform">
+                    <div class="title-form">
+                            <h2>Hello! Let's work together.</h2>
+                            <div onclick="hasClick()" class="cross-wind">
+                                <span class="cross-part"></span>
+                                <span class="cross-part"></span>
+                            </div>
+                    </div>
+                    <form name="form" method="post" action="">
+                        <div class="contain-form">
+                            <div class="names">
+                                <input type="text" name="firstname" placeholder="First Name">
+                                <input type="text" name="secondname" placeholder="Second Name">
+                            </div>
+                            <div class="infosup">
+                                <input type="text" name="email" placeholder="Email address">
+                                <textarea name="proj-desc" id="" cols="20" rows="5" placeholder="Project description"></textarea>
+                            </div>
+                            <div class="btn-form">
+                                <input type="submit" onclick="verifCode()" value="Send Request"><a href="#">Download Resume</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <div class="about-img">
+                <img src="img/IMG_0055-min.jpeg" alt="">
+            </div>
+            <section class="about-text">
+                <div class="card-about">
+                    <h3>Clients :</h3>
+                    <ul>
+                        <li>Decathlon</li>
+                        <li>Estrella Damm</li>
+                        <li>7Up</li>
+                        <li>Bodas.net</li>
+                        <li>+ more</li>
+                    </ul>
+                    <h3>Personal contact :</h3>
+                    <ul>
+                        <li>hello@marcomarino.design</li>
+                        <li>+34 663 546 271</li>
+                    </ul>
+                </div>
+                <div class="about-marco">
+                    <p>Hello, my name is Marco Marino and I’m a UI · UX designer. I have a passion for the beauty, whether simple or extravagant. I also love coding and typography.</p>
+                    <p>I was born in Naples, but now I live in Barcelona. So, I’m Italian and like all Italian people, I love pasta and pizza. And…of course, I always say “Mamma Mia!”</p>
+                    <p>I graduated @ Ilas Design School where I discovered my passion for problem-solving declined to graphic arts. I am currently working @ Bodas.net as Senior User Interface Designer.</p>
+                    <p>And please, don't forget ... may the force be with you!</p>
+                    <!--Bouton Let's talk-->
+                    <button class="button btn_white">Let's talk</button>
+                    <!--Link coté bouton-->
+                    <a href="http://www.google.com">View +Projects</a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <nav class="nav-footer">
+            <a href="http://www.dribble.com/marcomarino">Dribbble</a>
+            <a href="http://www.instagram.com/marcomarino.design">Instagram</a>
+            <a href="http://www.linkedin.com/in/marcomarinodesign">Linkedin</a>
+            <a href="http://www.curious.tumblr.com/">Tumblr</a>
+        </nav>
+        <small>Best experience on modern browsers</small>
+    </footer>
+</body>
+<script src="js/main.js"></script>
+</html>
